@@ -1,0 +1,134 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, font, form, footer, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, mark, menu, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+article, aside, details, footer, header, menu, nav, section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background: transparent;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-width: 990px;
+    height: auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    color: black;
+}
+
+blockquote, q {
+    quotes: "" "";
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content:none;
+}
+
+caption, td, th {
+    font-weight: normal;
+    text-align: left;
+}
+
+input {
+    position: relative;
+    float: left;
+    border: 0;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+li, ol, ul{
+    list-style: none;
+}
+
+/* placeholder */
+:-ms-input-placeholder {
+    color: black !important;
+}
+::-webkit-input-placeholder {
+    color: black !important;
+}
+:-moz-placeholder {
+    color: black !important;
+}
+::-moz-placeholder {
+    color: black !important;
+}
+
+select {
+    position: relative;
+    float: left;
+    border: 0;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    text-indent: 0.01px;
+    text-overflow: "";
+    vertical-align:middle;
+    background-image: url(../img/bg-select.png);
+    background-origin: content-box;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 10px !important;
+        -moz-background-size: 10px !important;
+        -ms-background-size: 10px !important;
+        -o-background-size: 10px !important;
+        -webkit-background-size: 10px !important;
+    appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        -webkit-appearance: none;
+}
+
+    /* remove background-image on IE */
+    @media screen\0 {
+        select {
+            background-image: inherit;
+        }
+    }
+
+    /* remove background-image on Firefox */
+    @-moz-document url-prefix() {
+      select {
+          background-image: inherit;
+      }
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    position: relative;
+    float: left;
+    font-family: Arial, sans-serif;
+    resize: none;
+}
+
+:focus {
+    outline: none;
+}

@@ -1,0 +1,11 @@
+@media screen and ( max-height: 800px ){
+	.profile-content p {
+		font-size: 150%;
+	}
+	.profile-skills p {
+		font-size: 100%;
+	}
+	.contact-form textarea {
+		height: 58px;
+	}
+}
